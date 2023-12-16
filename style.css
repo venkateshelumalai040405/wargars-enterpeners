@@ -1,0 +1,357 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(225, 52, 52);
+    
+}
+
+#header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    font-style:sans-serif;
+    border: 3px solid rgb(255, 255, 255);
+    margin-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#header>ul{
+    display: flex;
+    float: right;
+}
+
+#header>ul>li{
+    list-style:none;
+    margin-left: 20px;
+}
+
+
+#header>ul>li>.socialmedia{
+    align-content: center;
+    float: right;
+    list-style: none;
+}
+.main:hover{
+    color: black;
+    scale: 2.2;
+}
+
+.main{
+    color: aliceblue;
+    width: 70px;
+}
+.socialmedia li{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    float:right;
+    list-style: none;
+    width: 100px;
+}
+.socialmedia li a{
+    margin-right: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    outline: none;
+}
+  
+.nav-bar{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 70px;
+    background-color: aliceblue;
+    overflow:hidden;
+    transition: width 0.2s linear;
+    box-shadow: 10 10 10 10px white;
+}
+
+.nav-bar>.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.nav-bar>.logo{
+    top: 30px;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 15px;
+  
+}
+
+.logo span{
+    position: absolute;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    text-align: center;
+    top: 10px;
+}
+
+span{
+    margin-left: 50px;
+}
+
+.nav-bar>ul>li>.side{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+.fa-solid{
+    position: relative;
+    top: 14px;
+    height: 40px;
+    width:70px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    margin: bottom 20px;
+}
+
+.side:hover{
+    background-color: cadetblue;
+}
+.active{
+    background-color:  cadetblue;;
+}
+
+.nav-bar:hover{ 
+    width: 300px;
+    transition:all 0.5s ease;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.header{
+    margin-left: 70px; 
+    scroll-snap-type: y mandatory;
+    overflow-y:scroll;
+}
+
+#home{
+    height: 100dvh;
+    background-color:rgb(225, 52, 52);
+    scroll-snap-align: start;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#about{
+    height: 100dvh;
+    background-color:rgb(225, 52, 52); ;
+    scroll-snap-align: start;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#contact{
+    background-color:rgb(225, 52, 52);;
+    background-color: rgb(225, 52, 52);
+    height: 100dvh;
+    scroll-snap-align: start; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+ }
+
+#project{
+    background-color:rgb(225, 52, 52); 
+    height:100dvh;
+    scroll-snap-align: start;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color:rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 0px 10px #ff4747,0px 0px 20px #ff4747,0px 0px 40px #ff4747,0px 0px 50px #ff4747;
+}
+
+.bor{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color:transparent;
+    box-shadow: 0 0 5px cyan,0 0 15px cyan,0 0 25px cyan,0 0 100px cyan;
+    text-align: center;
+}
+
+
+/* contact  wargars*/
+.box>.con>p{
+    display: flex;
+    width: 500px;
+    transition: all 0.5s ease;
+}
+
+.venkat:hover{
+    background-color: #ffffff;
+    border-color:rgb(0, 0, 0);
+    width: 500px;
+}
+
+.vignesh:hover{
+    background-color: #ffffff;
+    border-color:rgb(0, 0, 0);
+    width: 500px;
+}
+.vetri:hover{
+    background-color: #ffffff;
+    border-color:rgb(0, 0, 0);
+    width: 500px;
+}
+.dhanush:hover{
+    background-color: #ffffff;
+    border-color:rgb(0, 0, 0);
+    width: 500px;
+    /* margin-top: 200px; */
+}
+.dinesh:hover{
+    background-color: #ffffff;
+    border-color:rgb(0, 0, 0);
+    width: 500px;
+}
+
+.con{
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+    float: left;
+}
+
+p{
+    color:rgb(0, 0, 0);
+}
+
+.venkat{
+    overflow: hidden;
+    border:2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left:160px;
+    border-color: aliceblue;
+    transition: width 0.10s linear;
+    background-color: #ffffff;
+    float:left;
+}
+
+.vignesh{
+    overflow: hidden;
+    border:2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    border-color: aliceblue;
+    transition: width 0.10s linear;
+    float:left;
+}
+
+.vetri{
+    overflow: hidden;
+    border:2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    border-color: aliceblue;
+    float:left;
+    transition: width 0.10s linear;
+}
+
+.dhanush{
+    overflow: hidden;
+    border:2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    border-color: aliceblue;
+    float:left;
+    transition: width 0.10s linear;
+}
+.dinesh{
+    overflow: hidden;
+    border:2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    border-color: aliceblue;
+    float:left;
+    transition: width 0.10s linear;
+}
+
+.let{
+    font-family: poppins;
+    font-size: larger;
+    border-width: 200px;
+    margin-top: 100px;
+    height: 400px;
+    margin-right:700px ;
+    border: 5px white solid;
+    border-radius:10px ;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.h{
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+
+
+
